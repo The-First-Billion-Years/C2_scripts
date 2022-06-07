@@ -23,8 +23,8 @@ python setup.py install
 
 # install pyqt for KDE
 pip uninstall -y pyqt_fit
-pip install git+git://github.com/charlottenosam/pyqt-fit.git
-echo pip install git+git://github.com/charlottenosam/pyqt-fit.git
+pip install git+https://github.com/charlottenosam/pyqt-fit.git
+echo pip install git+https://github.com/charlottenosam/pyqt-fit.git
 
 # test installation
 python -c "import reionizer; print('Imported reionizer succesfully'); print(reionizer.get_xHI_tab())"
