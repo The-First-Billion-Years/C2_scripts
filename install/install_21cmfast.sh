@@ -9,7 +9,7 @@ conda init bash
 #conda create -n 21cmfast python=3.7
 #conda create --prefix ./21cmfast python=3.7
 conda create --prefix /home/projects/ku_00155/apps/modulefiles/.conda/envs/21cmfast python=3.7
-conda activate 21cmfast
+source activate 21cmfast
 
 # install required packages
 conda install gsl fftw
