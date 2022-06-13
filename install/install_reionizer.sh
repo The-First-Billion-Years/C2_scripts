@@ -7,7 +7,7 @@ conda init bash
 
 # create lya_env environment in project directory
 conda create --prefix /home/projects/ku_00155/apps/modulefiles/.conda/envs/lya_env python=3.7
-conda activate lya_env
+source activate lya_env
 
 # install requirements
 conda install pip
