@@ -17,9 +17,9 @@ conda install numpy scipy click pyyaml cffi astropy h5py pip
 pip install powerbox
 
 # Install 21cmfast
-cd /home/projects/ku_00154/apps/
+cd /home/projects/ku_00155/apps/
 git clone https://github.com/21cmfast/21cmFAST.git
-cd /home/projects/ku_00154/apps/21cmFAST
+cd /home/projects/ku_00155/apps/21cmFAST
 git checkout ETHOS_DM
 INCLUDE=/home/projects/ku_00155/apps/modulefiles/.conda/envs/21cmfast/include LIB=/home/projects/ku_00155/apps/modulefiles/.conda/envs/21cmfast/lib  pip install -e .[dev]
 
