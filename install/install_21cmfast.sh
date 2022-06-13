@@ -8,7 +8,7 @@ conda init bash
 # create 21cmfast environment in project directory
 #conda create -n 21cmfast python=3.7
 #conda create --prefix ./21cmfast python=3.7
-conda create --prefix /home/projects/ku_00154/apps/.conda/envs/21cmfast python=3.7
+conda create --prefix /home/projects/ku_00155/apps/modulefiles/.conda/envs/21cmfast python=3.7
 conda activate 21cmfast
 
 # install required packages
@@ -21,7 +21,7 @@ cd /home/projects/ku_00154/apps/
 git clone https://github.com/21cmfast/21cmFAST.git
 cd /home/projects/ku_00154/apps/21cmFAST
 git checkout ETHOS_DM
-INCLUDE=/home/projects/ku_00154/apps/.conda/envs/21cmfast/include LIB=/home/projects/ku_00154/apps/.conda/envs/21cmfast/lib  pip install -e .[dev]
+INCLUDE=/home/projects/ku_00155/apps/modulefiles/.conda/envs/21cmfast/include LIB=/home/projects/ku_00155/apps/modulefiles/.conda/envs/21cmfast/lib  pip install -e .[dev]
 
 # Install 21cmfish
 # conda remove py21cmfish
