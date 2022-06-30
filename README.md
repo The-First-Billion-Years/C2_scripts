@@ -16,7 +16,7 @@ Host c2
 Login and move to project directory
 ```
 ssh c2
-cd /home/projects/ku_00154/
+cd /home/projects/ku_00155/
 ```
 
 ## Running jobs
