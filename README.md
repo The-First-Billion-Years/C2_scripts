@@ -4,6 +4,11 @@ C2 wiki https://www.computerome.dk/wiki
 
 ## SSH login
 
+If you have not used ssh before, you will need to create a public key (see more info [here](http://www.linuxproblem.org/art_9.html))
+```
+ssh-keygen -t rsa
+```
+
 For easy login add the following to your `~/.ssh/config` file on your laptop:
 ```
 Host c2
