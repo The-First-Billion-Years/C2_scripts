@@ -24,6 +24,11 @@ ssh c2
 cd /home/projects/ku_00155/
 ```
 
+**If you are logging in for the first time - change your password**
+```
+passwd
+```
+
 ## Running jobs
 
 Run a job
