@@ -28,10 +28,12 @@ echo This job has allocated $NPROCS nodes
 module load tools anaconda3/2021.05
 
 # Activate the conda environment (for some reason only `source activate` works)
-source activate 21cmfast
+# need to use full path here, not just 21cmfast
+export PATH=/home/projects/ku_00155/apps/modulefiles/.conda/bin
+source activate /home/projects/ku_00155/apps/modulefiles/.conda/envs/21cmfast
 
 # Get most up-to-date project code
-cd /home/projects/ku_00154/apps/21cmfish/
+cd /home/projects/ku_00155/apps/21cmfish/
 git pull
 
 # Run the command (match number of nodes above!)
