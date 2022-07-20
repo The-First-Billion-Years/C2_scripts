@@ -19,7 +19,7 @@ export LYA_DATA_DIR=/home/projects/ku_00155/data/LyaInference_data/
 cd /home/projects/ku_00155/apps/
 git clone https://github.com/charlottenosam/LyaInference.git
 cd LyaInference
-python setup.py install
+pip install -e .
 
 # install pyqt for KDE
 pip uninstall -y pyqt_fit
